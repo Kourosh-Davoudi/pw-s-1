@@ -10,13 +10,16 @@ Leaning outcomes:
 
 ```C++
 #include <iostream>
+#include <cstring>
 
 using namespace std;
+
+bool isPalindrome(int);
 
 int main()
 {
   int x;
-  cout << "Enter a number:";
+  cout << "Enter a positive number:";
   cin >> x;
   
   if(isPalindrome(x))
