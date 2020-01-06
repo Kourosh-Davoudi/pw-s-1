@@ -1,1 +1,1 @@
-** pw-s-1
+# The activity for week 1
