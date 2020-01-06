@@ -42,7 +42,9 @@ bool isPalindrome(int x)
 	a[i] = '\0';
 
 	// check if the palindrome number condition is violated (return false) 
+	
 	// your code is here
+	
 	return true;
 }
 ```
