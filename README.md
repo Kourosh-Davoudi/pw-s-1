@@ -30,7 +30,6 @@ int main()
   return 0;
 }
 
-```
 bool isPalindrome(int x)
 {
 	char a[10];
@@ -48,3 +47,4 @@ bool isPalindrome(int x)
 	}
 	return true;
 }
+```
