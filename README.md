@@ -20,9 +20,9 @@ int main()
   cin >> x;
   
   if(isPalindrome(x))
-    cout << "The number is Palindrome" << endl;
+    cout << "The number is palindrome" << endl;
   else
-    cout << "The number is NOT Palindrome" << endl;
+    cout << "The number is NOT palindrome" << endl;
     
   return 0;
 }
