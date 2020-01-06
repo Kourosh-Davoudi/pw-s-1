@@ -34,17 +34,15 @@ bool isPalindrome(int x)
 {
 	char a[10];
 	int i;
-	for (i = 0;  x > 0; ++i, x=x/10)
-	{
-		a[i] = x % 10 + '0';
-	}
+	
+	// put the number digit charachters of x in array a (in reverse order is fine)
+	
+	// your code is here
+
 	a[i] = '\0';
 
-	for (int i = 0,j = strlen(a)-1; i < j; ++i,--j)
-	{
-		if(a[i] != a[j])
-			return false;
-	}
+	// check if the palindrome number condition is violated (return false) 
+	
 	return true;
 }
 ```
