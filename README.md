@@ -31,3 +31,20 @@ int main()
 }
 
 ```
+bool isPalindrome(int x)
+{
+	char a[10];
+	int i;
+	for (i = 0;  x > 0; ++i, x=x/10)
+	{
+		a[i] = x % 10 + '0';
+	}
+	a[i] = '\0';
+
+	for (int i = 0,j = strlen(a)-1; i < j; ++i,--j)
+	{
+		if(a[i] != a[j])
+			return false;
+	}
+	return true;
+}
