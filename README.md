@@ -35,7 +35,7 @@ bool isPalindrome(int x)
 	char a[10];
 	int i;
 	
-	// put the number digit charachters of x in array a (in reverse order is fine)
+	// put the number digit characters of x in array a (in reverse order is fine)
 	
 	// your code is here
 
