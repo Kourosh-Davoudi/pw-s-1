@@ -1,4 +1,4 @@
-## The activity for week 1
+## The warm-up activity
 
 Leaning outcomes highlights: 
 - Basic control flow in C++
