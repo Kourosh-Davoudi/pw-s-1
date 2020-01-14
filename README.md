@@ -1,6 +1,6 @@
 ## The activity for week 1
 
-Leaning outcomes:
+Leaning outcomes highlights: 
 - Basic control flow in C++
 - Functional programming in C++
 - C-style strings
@@ -35,7 +35,7 @@ bool isPalindrome(int x)
 	char a[10];
 	int i;
 	
-	// put the number digit characters of x in array a (in reverse order is fine)
+	// put the digit characters of x in array a (in reverse order is fine)
 	
 	// your code is here
 
